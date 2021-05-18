@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "960475655037",
+    "project_id": "whatsappclone2-577ae",
+    "storage_bucket": "whatsappclone2-577ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960475655037:android:7ccb2d26108692fc0e3a14",
+        "android_client_info": {
+          "package_name": "com.vitalifenow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960475655037-hamvra6qet7spuj2vh6ll9qnphdp873v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsC3cHSvfdmWA3kdLh8YkraCNWYB5RdfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960475655037-hamvra6qet7spuj2vh6ll9qnphdp873v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960475655037:android:dd480fd94ba093380e3a14",
+        "android_client_info": {
+          "package_name": "com.viytalifenow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960475655037-hamvra6qet7spuj2vh6ll9qnphdp873v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsC3cHSvfdmWA3kdLh8YkraCNWYB5RdfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960475655037-hamvra6qet7spuj2vh6ll9qnphdp873v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

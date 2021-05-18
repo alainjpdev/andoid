@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "319747012032",
+    "project_id": "whatsappclone-499e8",
+    "storage_bucket": "whatsappclone-499e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319747012032:android:394dc1d587ccbe10b14425",
+        "android_client_info": {
+          "package_name": "com.vitalifenow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319747012032-271mfg9fnla82pjfejr1e0jklpoop3ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA79sEd_9y5oIj48MKBQVtUkMqqbFwZOfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319747012032-271mfg9fnla82pjfejr1e0jklpoop3ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
