@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="16dp"
+        android:text="UI Design"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="56dp"
+        android:checked="true"
+        android:text="ON"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="59dp"
+        android:text="English"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <CheckBox
+        android:id="@+id/ch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="56dp"
+        android:text="Spanish"
+        app:layout_constraintStart_toEndOf="@+id/ch1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="226dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="59dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="female" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="male" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Enter your age"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Alert Dialog"
+        android:onClick="openAlert"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="52dp"
+        android:onClick="openProgress"
+        android:text="Progress dialog"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
